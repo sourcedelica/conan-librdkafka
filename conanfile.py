@@ -7,7 +7,7 @@ class LibrdkafkaConan(ConanFile):
     version = "1.2.2"
     description = "The Apache Kafka C/C++ library"
     topics = ("conan", "librdkaka", "kafka")
-    url = "http://bitbucket-idb.nyoffice.tradeweb.com:7990/scm/tp/conan-librdkafka.git"
+    url = "https://github.com/sourcedelica/conan-librdkafka.git"
     homepage = "https://github.com/edenhill/librdkafka"
     license = "BSD-2-Clause"
     exports_sources = ["CMakeLists.txt"]
